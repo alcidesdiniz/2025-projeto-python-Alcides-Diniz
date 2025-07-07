@@ -1,0 +1,41 @@
+01. Entrada:
+Arquivo: jogo_das_frutas.py
+Linha: 40
+jogar_novamente = input("\n Deseja jogar novamente? (s/n): ").strip().lower()
+Explicação: A variável palpite recebe uma entrada do usuário com a função input(). Em seguida, strip() remove espaços em branco e lower() converte a string para minúsculas, facilitando a comparação.
+
+02. Saída:
+Arquivo: jogo_das_frutas.py
+Linha: 42
+print(" Obrigado por jogar! Até a próxima!")
+Explicação: Usa print() com f-string para exibir uma dica personalizada ao jogador, indicando qual número da dica está sendo mostrada.
+
+03. Variáveis:
+Arquivo: jogo_das_frutas.py
+Linha: 13
+ "laranja": ["Sou cítrica", "Tenho muita vitamina C", "Minha cor é meu nome"],
+Explicação: As variáveis fruta e dicas armazenam, respectivamente, o nome de uma fruta e sua lista de dicas, selecionadas aleatoriamente do dicionário frutas.
+
+04. Condicional (if/else):
+Arquivo: jogo_das_frutas.py
+Linha: 29
+ if palpite == fruta:
+Explicação: Verifica se o palpite do usuário corresponde ao nome da fruta correta. Se for verdadeiro, o jogo informa que o usuário acertou; senão, passa para a próxima dica.
+
+05. Laço de repetição (while):
+Arquivo: jogo_das_frutas.py
+Linha: 38
+while True:
+Explicação: Inicia um laço infinito que permite ao jogador jogar várias rodadas. A condição de saída é controlada por um if com break.
+
+06. Funções:
+Arquivo: jogo_das_frutas.py
+Linha: 19
+def jogar():
+Explicação: Define uma função chamada jogar() que contém toda a lógica principal do jogo. Isso permite reutilizar o código sempre que o usuário quiser jogar novamente.
+
+07. Biblioteca
+Arquivo: jogo_das_frutas.py
+Linha: 7
+import random
+Explicação: uso módulo random para criar uma escolha aleatória
